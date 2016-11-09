@@ -1,0 +1,19 @@
+{
+    "name": "sukohi/related-word",
+    "description": "Get related words through wikipedia.",
+    "authors": [
+        {
+            "name": "Sukohi",
+            "email": "capilano.sukohi@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sukohi\\RelatedWord\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
