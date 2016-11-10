@@ -1,6 +1,8 @@
 # RelatedWord
 Get related words through wikipedia.
 
+[Demo](http://demo-laravel52.capilano-fw.com/related_words)
+
 # Installation
 
 Execute the following composer command.
