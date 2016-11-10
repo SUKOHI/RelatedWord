@@ -60,7 +60,7 @@ class RelatedWord {
 
                 $tag = $matches[1][$i];
 
-                if ($this->isAvailable($tag)) {
+                if (strpos($tag, ':') === false && $this->isAvailable($tag)) {
 
                     $tag = preg_replace('| \(.*|u', '', $tag);
 
